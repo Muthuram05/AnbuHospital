@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anbu Hospital</title>
+<link rel="stylesheet" href="style.css">
+<link href="assests/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+<script src="https://kit.fontawesome.com/8c915b03e4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+    <div class="container-fluid justify-content-between">
+      <img src="images/logo.png" width="180" class="d-none d-md-block">
+      <img src="images/logo.png" width="120" class="d-block d-md-none">
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link btn active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item drop">
+            <a class="nav-link btn" href="service.html" >Services</a>
+            <!-- <div class="service-drop shadow-lg">
+              <ul class="d-flex gap-4 flex-wrap ">
+                <li class="nav-item"><a class="nav-link" href="">Lapnoscopic Surgeries</a></li>
+                <li class="nav-item"><a class="nav-link" href="">Dialysis Care Support</a></li>
+                <li class="nav-item"><a class="nav-link" href="">ICU Facilities </a></li>
+                <li class="nav-item"><a class="nav-link" href="">Emergency Care</a></li>
+                <li class="nav-item"><a class="nav-link" href="">Laboratory & USG with Doppler</a></li>
+                <li class="nav-item"><a class="nav-link" href="">24×4 pharmacy</a></li>
+                <li class="nav-item"><a class="nav-link" href="">Enhanced External Counterpulsation</a></li>
+                <li class="nav-item"><a class="nav-link" href="">Operation theatre</a></li>
+                <li class="nav-item"><a class="nav-link" href="">Labour ward</a></li>
+                <li class="nav-item"><a class="nav-link" href="">Electrocardiogram (ECG)</a></li>
+                <li class="nav-item"><a class="nav-link" href="">Echocardiography 
+                  (ECHO)
+                </a></li>
+                <li class="nav-item"><a class="nav-link" href="">Physiotheraphy and Rehabilitation
+
+
+
+
+
+
+
+                  
+                </a></li>
+              </ul>
+            </div>
+          </li> -->
+          
+          <li class="nav-item">
+            <a class="nav-link btn" href="careers.html">Careers</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link btn" href="Event.html">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn text-nowrap" href="anbu'sgallery.html">Anbu's Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn  text-nowrap" href="contactus.html">Contact Us</a>
+          </li>
+        </ul> 
+       
+        <a href="bookingAppointment.html" class="booking-button"><i class="fa-solid fa-notes-medical medi-icon"></i>  Book Appointment</a>
+        
+      </div>
+      <div class="d-block d-lg-none bar" >
+        <i class="fa-solid fa-bars" id="bar"></i>
+      </div>
+      <div class="mobile-nav" id="mobile-nav">
+        <div class="d-flex flex-column" >
+          <img src="images/logo.png" width="120" class="d-block d-md-none m-3">
+
+          <ul class="navbar-nav d-flex flex-column">
+            <li class="nav-item">
+              <a class="nav-link btn active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown-m mx-5 position-relative" id="drop-down">
+              <a class="nav-link btn " href="service.html" >Services</a>
+              <div class="service-drop shadow-md" id="d-menu">
+                <ul class="d-flex flex-column align-items-center  ">
+                  <li class=""><a class="dropdown-item" href="">Lapnoscopic Surgeries</a></li>
+                  <li class=""><a class="dropdown-item" href="">Lapnoscopic Surgeries</a></li>
+                  <li class=""><a class="dropdown-item" href="">Lapnoscopic Surgeries</a></li>
+                  <li class=""><a class="dropdown-item" href="">Lapnoscopic Surgeries</a></li>
+                  <li class=""><a class="dropdown-item" href="">Lapnoscopic Surgeries</a></li>
+                  <li class=""><a class="dropdown-item" href="">Lapnoscopic Surgeries</a></li>
+                  <li class=""><a class="dropdown-item" href="">Lapnoscopic Surgeries</a></li>
+                  <li class=""><a class="dropdown-item" href="">Lapnoscopic Surgeries</a></li>
+                  <li class=""><a class="dropdown-item" href="">Lapnoscopic Surgeries</a></li>
+                  <li class=""><a class="dropdown-item" href="">Lapnoscopic Surgeries</a></li>
+                  <li class=""><a class="dropdown-item" href="">Lapnoscopic Surgeries</a></li>
+                  <li class=""><a class="dropdown-item" href="">Lapnoscopic Surgeries</a></li>
+                </ul>
+              </div>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link btn" href="careers.html">Careers</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link btn" href="Event.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn" href="anbu'sgallery.html">Anbu's Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn" href="contactus.html">Contact Us</a>
+            </li>
+          </ul> 
+         
+          <a href="bookingAppointment.html" class="booking-button mx-5 mt-4 text-center"><i class="fa-solid fa-notes-medical medi-icon"></i>  Book Appointment</a>
+          
+        </div>
+      </div>
+      </div>
+</nav>
+
+       <!-- service page -->
+       <section id="Services">
+        <div class="text-box">
+          <h1>Services</h1>
+          <p>Hospital marketers juggle diverse audiences: consumers, internal and external physicians, staff and executives. You also manage multiple projects, deadlines and demands. You need content creators who understand these unique audiences and stresses.</p>
+              <a href="" class="hero-btn">Visit Us To Know More </a>
+      </div>
+      </section>
+
+
+   <section class="m-5" id="service">
+  <div class="d-flex align-items-start justify-content-center row">
+    <div class="col-md-4 nav flex-md-column  flex-row flex-nowrap gap-3 text-nowrap overflow-mobile nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <button class="nav-link" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#tab1" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Our Services</button>
+      <button class="nav-link active " id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#tab2" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Laproscopic Surgeries</button>
+      <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#tab3" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Dialysis care support</button>
+      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#tab4" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">ICU facilities</button>
+      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#tab5" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Emergency care</button>
+      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#tab6" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Laboratory & USG with Doppler</button>
+      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#tab6" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">24×7 Pharmacy</button>
+      <button class="nav-link " id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#tab6" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Enhanced External Counterpulsation (EECP)</button>
+      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#tab7" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Operation theatre</button>
+      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#tab8" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Labour ward</button>
+      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#tab9" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Electrocardiogram (ECG)</button>
+      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#tab10" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Echocardiography (ECHO)</button>
+      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#tab11" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Physiotherapy and Rehabilitation</button>
+      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#tab12" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Ambulance</button>
+      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#tab13" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Yoga centre</button>
+    </div>
+    <div class="tab-content col-md-7" id="v-pills-tabContent">
+      <div class="tab-pane fade " id="tab1" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+      </div>
+      <div class="tab-pane fade show active tab-press" id="tab2" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0"> <h2 class="accordin_tab_title text-center">Overview</h2>
+        <img src="images/charnock-hospital.kolkata-portfolio-04.jpg" class="service-img">
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <img src="images/doctor1.jpg"  class="doc">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa mollitia vero harum ea, autem illum consequatur perspiciatis molestias expedita rerum voluptatum veritatis deleniti itaque facilis? Architecto maiores alias nam ipsam!</p>
+      </div>
+
+      <div class="tab-pane fade tab-press" id="tab3" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0"><h2 class="accordin_tab_title text-center">Overview</h2>
+        <img src="images/charnock-hospital.kolkata-portfolio-04.jpg" class="service-img">
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <img src="images/doctor1.jpg"  class="doc">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa mollitia vero harum ea, autem illum consequatur perspiciatis molestias expedita rerum voluptatum veritatis deleniti itaque facilis? Architecto maiores alias nam ipsam!</p></div>
+
+      <div class="tab-pane fade  tab-press" id="tab4" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0"><h2 class="accordin_tab_title text-center">Overview</h2>
+        <img src="images/charnock-hospital.kolkata-portfolio-04.jpg" class="service-img">
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <img src="images/doctor1.jpg"  class="doc">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa mollitia vero harum ea, autem illum consequatur perspiciatis molestias expedita rerum voluptatum veritatis deleniti itaque facilis? Architecto maiores alias nam ipsam!</p></div>
+
+      <div class="tab-pane fade  tab-press" id="tab5" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0"><h2 class="accordin_tab_title text-center">Overview</h2>
+        <img src="images/charnock-hospital.kolkata-portfolio-04.jpg" class="service-img">
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <img src="images/doctor1.jpg"  class="doc">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa mollitia vero harum ea, autem illum consequatur perspiciatis molestias expedita rerum voluptatum veritatis deleniti itaque facilis? Architecto maiores alias nam ipsam!</p></div>
+
+      <div class="tab-pane fade  tab-press" id="tab6" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0"><h2 class="accordin_tab_title text-center">Overview</h2>
+        <img src="images/charnock-hospital.kolkata-portfolio-04.jpg" class="service-img">
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <img src="images/doctor1.jpg"  class="doc">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa mollitia vero harum ea, autem illum consequatur perspiciatis molestias expedita rerum voluptatum veritatis deleniti itaque facilis? Architecto maiores alias nam ipsam!</p></div>
+
+      <div class="tab-pane fade  tab-press" id="tab7" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0"><h2 class="accordin_tab_title text-center">Overview</h2>
+        <img src="images/charnock-hospital.kolkata-portfolio-04.jpg" class="service-img">
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <img src="images/doctor1.jpg"  class="doc">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa mollitia vero harum ea, autem illum consequatur perspiciatis molestias expedita rerum voluptatum veritatis deleniti itaque facilis? Architecto maiores alias nam ipsam!</p></div>
+
+      <div class="tab-pane fade  tab-press" id="tab8" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0"><h2 class="accordin_tab_title text-center">Overview</h2>
+        <img src="images/charnock-hospital.kolkata-portfolio-04.jpg" class="service-img">
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <img src="images/doctor1.jpg"  class="doc">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa mollitia vero harum ea, autem illum consequatur perspiciatis molestias expedita rerum voluptatum veritatis deleniti itaque facilis? Architecto maiores alias nam ipsam!</p></div>
+
+      <div class="tab-pane fade  tab-press" id="tab9" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0"><h2 class="accordin_tab_title text-center">Overview</h2>
+        <img src="images/charnock-hospital.kolkata-portfolio-04.jpg" class="service-img">
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <img src="images/doctor1.jpg"  class="doc">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa mollitia vero harum ea, autem illum consequatur perspiciatis molestias expedita rerum voluptatum veritatis deleniti itaque facilis? Architecto maiores alias nam ipsam!</p></div>
+
+      <div class="tab-pane fade  tab-press" id="tab10" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0"><h2 class="accordin_tab_title text-center">Overview</h2>
+        <img src="images/charnock-hospital.kolkata-portfolio-04.jpg" class="service-img">
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <img src="images/doctor1.jpg"  class="doc">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa mollitia vero harum ea, autem illum consequatur perspiciatis molestias expedita rerum voluptatum veritatis deleniti itaque facilis? Architecto maiores alias nam ipsam!</p></div>
+
+      <div class="tab-pane fade  tab-press" id="tab11" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0"><h2 class="accordin_tab_title text-center">Overview</h2>
+        <img src="images/charnock-hospital.kolkata-portfolio-04.jpg" class="service-img">
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <img src="images/doctor1.jpg"  class="doc">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa mollitia vero harum ea, autem illum consequatur perspiciatis molestias expedita rerum voluptatum veritatis deleniti itaque facilis? Architecto maiores alias nam ipsam!</p></div>
+
+      <div class="tab-pane fade  tab-press" id="tab12" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0"><h2 class="accordin_tab_title text-center">Overview</h2>
+        <img src="images/charnock-hospital.kolkata-portfolio-04.jpg" class="service-img">
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <img src="images/doctor1.jpg"  class="doc">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa mollitia vero harum ea, autem illum consequatur perspiciatis molestias expedita rerum voluptatum veritatis deleniti itaque facilis? Architecto maiores alias nam ipsam!</p></div>
+
+      <div class="tab-pane fade  tab-press" id="tab13" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0"><h2 class="accordin_tab_title text-center">Overview</h2>
+        <img src="images/charnock-hospital.kolkata-portfolio-04.jpg" class="service-img">
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <p class="accordin_tab_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis vel quae cupiditate distinctio voluptate dicta reprehenderit deserunt. Voluptatum magni molestias atque, in quaerat ipsa repellendus hic neque, maxime error animi.</p>
+        <img src="images/doctor1.jpg"  class="doc">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa mollitia vero harum ea, autem illum consequatur perspiciatis molestias expedita rerum voluptatum veritatis deleniti itaque facilis? Architecto maiores alias nam ipsam!</p></div>
+      </div>
+  </div>
+</section>
+    <!-- Footer Section -->
+    <div class="footer_section">
+      <div class="container-md-fluid">
+          <div class="common_header">
+              <h1>Stay Informed</h1>
+          </div>
+          <div class="footer_container_container container-md">
+              <div class="footer_search d-flex flex-md-row flex-column gap-4 gap-md-0 ">
+                  <input type="text" placeholder="Name" class="search_input"/>
+                  <input type="text" placeholder="Email" class="search_input"/>
+                  <button type="button" class="send_btn"><i class="fa-solid fa-paper-plane"></i></button>
+              </div>
+          </div>
+          <div class="social_links">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+          <div class="links_section">
+              <div class="common_header">
+                  <h3>Quick Links</h3>
+              </div>
+              <div class="links_container">
+                  <p><a href="#">Home</a></p>
+                  <p><a href="#">Services</a></p>
+                  <p><a href="#">Careers</a></p>
+                  <p><a href="#">Specialities</a></p>
+                  <p><a href="#">Events</a></p>
+                  <p><a href="#">Contact Us</a></p>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+   <p>&copy; All Rights Reserved by Flit Works</p>
+    </div>
+
+  <div class="whatsapp-icon">
+    <a href="https://wa.me/+919629351979"><img src="images/whatsapp.png"></a>
+   </div>
+   <div class="calls-icon">
+    <a href="tel:+4733378901"><img src="images/call icon.png"></a>
+   </div>
+
+  <section id="dotted">
+    <div class="group-menu" id="menu" onclick="fun()">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+    <!-- end group-menu -->
+    <div class="frame1" id="frame1">
+<div class="info"><span>Book Appointment</span></div>
+<div class="info"><span>Health Checkup</span></div>
+<div class="info" onclick="remove()"><span>Tele consultation</span></div>
+    </div>
+    <!-- frame1 class end -->
+  </section>
+
+  <!-- chatbot -->
+<div id="chatbot-toggler">
+  <img src="images/logo assanam.png" style="width: 150px; height: 80px;">
+</div>
+<div id="bot" class="hidden">
+  <div id="container">
+    <div id="header">
+        Online Chatbot App
+    </div>
+
+    <div id="body">
+        <!-- This section will be dynamically inserted from JavaScript -->
+        <div class="userSection">
+          <div class="messages user-message">
+
+          </div>
+          <div class="seperator"></div>
+        </div>
+        <div class="botSection">
+          <div class="messages bot-reply">
+
+          </div>
+          <div class="seperator"></div>
+        </div>                
+    </div>
+
+    <div id="inputArea">
+      <input type="text" name="messages" id="userInput" placeholder="Please enter your message here" required>
+      <input type="submit" id="send" value="Send">
+    </div>
+  </div>
+  </div>
+  
+<script src="assests/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script> 
+  
+</body>
+</html>
