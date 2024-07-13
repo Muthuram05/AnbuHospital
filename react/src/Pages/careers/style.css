@@ -1,0 +1,48 @@
+.careers-intro{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    background-image: url("https://careers.kissflow.com/hubfs/careers-banner-1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.primary-btn{
+    padding: 10px;
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.intro-header{
+    margin-top: 42px;
+}
+
+.margin{
+    margin-top: 10px;
+}
+
+.careers-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.careers-goals{
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.careers-goals h1{
+    color: blue;
+}
+
+.career-map{
+    display: flex;
+    flex-wrap: wrap;
+}
