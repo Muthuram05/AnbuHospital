@@ -7,10 +7,10 @@ const AboutUs = () => {
     <>
       <section id="about">
         <div class="about-container">
-          <div class="left-container">
+          <div class="about-left-container">
             <img src="/images/Aboutus.png" alt="" class="img-fluid" />
           </div>
-          <div class="right-container">
+          <div class="about-right-container">
             <h1>About Us</h1>
             <p>
               The word <b>Anbu</b> is an Indian word that refers to kindness or
