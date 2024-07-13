@@ -1,0 +1,32 @@
+:root{
+    --image: url("./charnock-hospital.kolkata-portfolio-04.jpg")
+}
+
+.fullimage{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image:linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), var(--image); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fullimage h1{
+    color: #fff;
+}
+
+.fullimage p{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.fullimage button{
+    margin-top: 30px;
+    color: #fff;
+}
