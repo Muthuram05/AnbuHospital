@@ -13,6 +13,9 @@ import { useState } from "react";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
+  function change(){
+    setIsOpen((prev) => !prev)
+  }
   return (
     <>
       <Router>
@@ -28,7 +31,10 @@ function App() {
           </Routes>
         </div>
         {}
-        {isOpen ? <Chatbot /> : <div className="chatbot-logo" onClick={() => setIsOpen(true)}></div>}
+        <div className="chatbot-fixed">
+          {isOpen && <Chatbot /> }
+         <div className="chatbot-logo" onClick={change}></div>
+        </div>
         <Footer />
       </Router>
   </>
