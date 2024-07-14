@@ -9,7 +9,7 @@ const CareerCard = () => {
         width={"100px"}
         height={"120px"}
       />
-      <h3>Bias to Action</h3>
+      <h2>Bias to Action</h2>
       <p>
         Experiment, fail, learn, share, repeat. Seek forgiveness instead of
         permission.

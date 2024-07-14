@@ -31,10 +31,8 @@
 }
 
 .careers-goals{
-    height: 120vh;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 
@@ -44,5 +42,9 @@
 
 .career-map{
     display: flex;
+    padding: 0 200px;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }

@@ -8,8 +8,11 @@ import Services from "./Pages/services";
 import Specialities from "./Pages/specialities";
 import Event from "./Pages/event";
 import Careers from "./Pages/careers";
+import Chatbot from "./components/chatbot";
+import { useState } from "react";
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <>
       <Router>
@@ -24,6 +27,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
+        {}
+        {isOpen ? <Chatbot /> : <div className="chatbot-logo" onClick={() => setIsOpen(true)}></div>}
         <Footer />
       </Router>
   </>

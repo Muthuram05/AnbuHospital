@@ -20,6 +20,7 @@ const Careers = () => {
       <div className="careers-goals">
         <h1>What We Believe</h1>
         <p>These are the values we rely on to create a new way to work.</p>
+        <br />
         <div className="career-map">
           <CareerCard />
           <CareerCard />
