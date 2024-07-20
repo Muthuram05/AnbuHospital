@@ -6,7 +6,12 @@ import FullScreenImage from "../../components/full_screen_image";
 export const Contact = () => {
   return (
     <>
-     <FullScreenImage name={"Contact Us"} content={"Hospital marketers juggle diverse audiences: consumers, internal and external physicians, staff and executives. You also manage multiple projects, deadlines and demands. You need content creators who understand these unique audiences and stresses."}/>
+      <FullScreenImage
+        name={"Contact Us"}
+        content={
+          "Hospital marketers juggle diverse audiences: consumers, internal and external physicians, staff and executives. You also manage multiple projects, deadlines and demands. You need content creators who understand these unique audiences and stresses."
+        }
+      />
       <div class="contact">
         <div class="heading text-center">
           <h2>
@@ -55,39 +60,22 @@ export const Contact = () => {
               </div>
             </div>
           </div>
-          <form className="right">
-              <div class="row">
-                <div class="col-sm-6">
-                  <input type="text" class="form-control" placeholder="Name" />
-                  <input
-                    type="email"
-                    class="form-control"
-                    placeholder="Email"
-                  />
-                </div>
-              </div>
-              <div class="col-sm-12">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Subject"
-                  />
-                </div>
-              <div class="form-group">
-                <textarea
-                  class="form-control"
-                  rows="5"
-                  id="comment"
-                  placeholder="Message"
-                ></textarea>
-              </div>
-              <button class="btn btn-block" type="submit">
-                Send Now!
-              </button>
+          <form className="right" action="#">
+            <div class="row">
+              <input type="text" className="formgroup" placeholder="Name" />
+              <input type="email" className="formgroup" placeholder="Email" />
+            </div>
+            <input type="text" className="formgroup" placeholder="Subject" />
+            <textarea
+              className="formgroup"
+              rows="5"
+              id="comment"
+              placeholder="Message"
+            ></textarea>
+            <button class="btn btn-block">Send Now!</button>
           </form>
         </div>
       </div>
     </>
-   
   );
 };

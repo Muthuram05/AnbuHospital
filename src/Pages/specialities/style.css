@@ -1,0 +1,24 @@
+.specialities-container{
+    display: flex;
+    margin-top: 20px;
+    padding: 0 100px;
+    justify-content: space-between;
+}
+
+.specialities-container img{
+    width: 200px;
+    height: 200px;
+}
+
+.controler{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.controler button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

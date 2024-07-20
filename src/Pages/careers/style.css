@@ -47,3 +47,41 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+.our-trend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.our-trend-demo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.our-trend-demo div{
+    width: 30%;
+}
+
+.position-open {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 24px;
+    width: 500px;
+    height: 200px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+}
+
+.opening-position{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: wrap;
+}

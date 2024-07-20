@@ -30,52 +30,75 @@ const Careers = () => {
           <CareerCard />
         </div>
       </div>
-      <div>
+      <br />
+      <div className="our-trend">
         <h1>What’s Happening?</h1>
         <p>
           Here are just a few ways we stand out from the crowd and push for
           something better.
         </p>
-        <div>
-          <img
-            src="https://i.pinimg.com/736x/06/2b/83/062b83d4e3e10d2968fbf72b14cd24a7.jpg"
-            alt="/"
-          />
-          <h3>G2G - Good to Great</h3>
-          <p>
-            Every week, we shut down our systems and spend time talking with
-            each other and learning how to be a better employee, leader, and
-            person.
-          </p>
-        </div>
-        <div>
-          <img
-            src="https://i.pinimg.com/736x/06/2b/83/062b83d4e3e10d2968fbf72b14cd24a7.jpg"
-            alt="/"
-          />
-          <h3>G2G - Good to Great</h3>
-          <p>
-            Every week, we shut down our systems and spend time talking with
-            each other and learning how to be a better employee, leader, and
-            person.
-          </p>
-        </div>
-        <div>
-          <img
-            src="https://i.pinimg.com/736x/06/2b/83/062b83d4e3e10d2968fbf72b14cd24a7.jpg"
-            alt="/"
-          />
-          <h3>G2G - Good to Great</h3>
-          <p>
-            Every week, we shut down our systems and spend time talking with
-            each other and learning how to be a better employee, leader, and
-            person.
-          </p>
+        <br />
+        <div className="our-trend-demo">
+          <div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/Mzc6hAKafr8?si=o3GzXef_VPlt1W2M"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <h3>G2G - Good to Great</h3>
+            <p>
+              Every week, we shut down our systems and spend time talking with
+              each other and learning how to be a better employee, leader, and
+              person.
+            </p>
+          </div>
+          <div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/Mzc6hAKafr8?si=o3GzXef_VPlt1W2M"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <h3>G2G - Good to Great</h3>
+            <p>
+              Every week, we shut down our systems and spend time talking with
+              each other and learning how to be a better employee, leader, and
+              person.
+            </p>
+          </div>
+          <div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/Mzc6hAKafr8?si=o3GzXef_VPlt1W2M"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <h3>G2G - Good to Great</h3>
+            <p>
+              Every week, we shut down our systems and spend time talking with
+              each other and learning how to be a better employee, leader, and
+              person.
+            </p>
+          </div>
         </div>
       </div>
-      <div>
-        <h1>Open Positions</h1>
-        <div>
+      <br />
+      <h1>Open Positions</h1>
+      <div className="opening-position">
+        <div className="position-open">
           <h1>Nursing</h1>
           <p>
             Lorem Ipsum has been the industry's standard dummy text ever since
@@ -84,7 +107,7 @@ const Careers = () => {
           </p>
           <button>Explore More</button>
         </div>
-        <div>
+        <div className="position-open">
           <h1>Doctors</h1>
           <p>
             Lorem Ipsum has been the industry's standard dummy text ever since
@@ -93,7 +116,7 @@ const Careers = () => {
           </p>
           <button>Explore More</button>
         </div>
-        <div>
+        <div className="position-open">
           <h1>Admin</h1>
           <p>
             Lorem Ipsum has been the industry's standard dummy text ever since

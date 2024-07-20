@@ -26,15 +26,6 @@
     padding: 0;
 }
 
-.contact .form-control {
-    padding: 25px;
-    font-size: 13px;
-    margin-bottom: 10px;
-    background: #f9f9f9;
-    border: 0;
-    border-radius: 10px;
-}
-
 .contact button.btn {
     padding: 10px;
     border-radius: 10px;
@@ -59,6 +50,7 @@
 .contact .content .info {
     margin-top: 30px;
 }
+
 .contact .content .info i {
     font-size: 30px;
     padding: 0;
@@ -93,4 +85,24 @@
 .contact-container .right{
     margin-left: 24px;
     width: 50%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.right .row{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.right .row input{
+    width: 100%;
+}
+
+.formgroup{
+    padding: 20px;
+    border-radius: 10px;
+    border: 0;
+    background: #f9f9f9;
 }
