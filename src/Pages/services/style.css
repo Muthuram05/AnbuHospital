@@ -1,0 +1,50 @@
+.service-bottom-container{
+    padding: 100px;
+    display: flex;
+}
+
+.service-card-map{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.serviceCard{
+    text-align: center;
+    padding: 30px 5px;
+    background-color: #af3e3e21;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.serviceCard.isActive{
+    background-color: var(--dark-blue);
+    color: var(--white);
+} 
+
+.serviceCard:hover{
+    cursor: pointer;
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.serviceCard .name{
+    font-size: 20px;
+    font-weight: medium;
+}
+
+.service-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 100px;
+    gap: 30px;
+    align-items: center;
+}
+
+.service-details img{
+    width: 500px;
+    height: 500px;
+}

@@ -7,8 +7,7 @@ export const Contact = () => {
   return (
     <>
      <FullScreenImage name={"Contact Us"} content={"Hospital marketers juggle diverse audiences: consumers, internal and external physicians, staff and executives. You also manage multiple projects, deadlines and demands. You need content creators who understand these unique audiences and stresses."}/>
-     <section class="contact" id="contact">
-      <div class="container">
+      <div class="contact">
         <div class="heading text-center">
           <h2>
             Contact
@@ -21,8 +20,8 @@ export const Contact = () => {
             incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-        <div class="row">
-          <div class="col-md-5">
+        <div class="contact-container">
+          <div class="left">
             <div class="title">
               <h3>Contact detail</h3>
               <p>
@@ -56,28 +55,24 @@ export const Contact = () => {
               </div>
             </div>
           </div>
-
-          <div class="col-md-7">
-            <form>
+          <form className="right">
               <div class="row">
                 <div class="col-sm-6">
                   <input type="text" class="form-control" placeholder="Name" />
-                </div>
-                <div class="col-sm-6">
                   <input
                     type="email"
                     class="form-control"
                     placeholder="Email"
                   />
                 </div>
-                <div class="col-sm-12">
+              </div>
+              <div class="col-sm-12">
                   <input
                     type="text"
                     class="form-control"
                     placeholder="Subject"
                   />
                 </div>
-              </div>
               <div class="form-group">
                 <textarea
                   class="form-control"
@@ -89,11 +84,9 @@ export const Contact = () => {
               <button class="btn btn-block" type="submit">
                 Send Now!
               </button>
-            </form>
-          </div>
+          </form>
         </div>
       </div>
-    </section>
     </>
    
   );

@@ -1,8 +1,7 @@
 .careers-intro{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     flex-direction: column;
     background-image: url("https://careers.kissflow.com/hubfs/careers-banner-1.svg");
     background-repeat: no-repeat;
